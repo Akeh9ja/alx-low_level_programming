@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - print the phrase. 
- * Return: Always 0 (Sucess)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
