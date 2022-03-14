@@ -17,7 +17,7 @@ int main(void)
 		{
 			if (o < p)
 			{
-	 			putchar((o / 10) + '0');
+				putchar((o / 10) + '0');
 				putchar((o % 10) + '0');
 				putchar(' ');
 				putchar((p / 10) + '0');
