@@ -9,21 +9,24 @@
  */
 int main(void)
 {
-	long int n1, n2, fn, afn;
+	long int i, j, k, next;
 
-	n1 = 1;
-	n2 = 2;
-	fn = afn = 0;
-	while (fn <= 4000000)
+	j = 1;
+	k = 2;
+
+	for (i = 1; i <= 50; ++i)
 	{
-		fn = n1 + n2;
-		n1 = n2;
-		n2 = fn;
-		if ((n1 % 2) == 0)
+		if (j != 20365011074)
 		{
-			afn += n1;
+			printf("%ld, ", j);
+		} else
+		{
+			printf("%ld\n", j);
 		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
-	printf("%ld\n", afn);
+
 	return (0);
 }
