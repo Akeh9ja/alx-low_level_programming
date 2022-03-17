@@ -9,7 +9,6 @@ int main(void)
 {
 	int i;
 
-	i = 98;
 
 	if (i > 0)
 	{
