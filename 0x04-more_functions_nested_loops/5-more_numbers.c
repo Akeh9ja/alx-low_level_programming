@@ -5,7 +5,7 @@
  * 10 times.
  * Return: no return.
  */
-int more_numbers(void)
+void more_numbers(void)
 {
 	int i, ch;
 
@@ -18,5 +18,6 @@ int more_numbers(void)
 				_putchar((ch / 10) + 48);
 			_putchar((ch % 10) + 48);
 		}
-	}	_putchar('\n');
+	}
+	_putchar('\n');
 }
